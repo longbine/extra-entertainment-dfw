@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Extra Entertainment DFW | Wedding &amp; Event DJs in Dallas–Fort Worth</title>
+<meta name="description" content="Veteran-owned, family-run DJs serving Dallas–Fort Worth. 5.0 stars across 73 reviews. Weddings, corporate events, proms and parties. Get an instant quote.">
+<meta name="theme-color" content="#0B0B0F">
+
+<meta property="og:title" content="Extra Entertainment DFW | Dance More. Worry Less.">
+<meta property="og:description" content="Veteran-owned DFW wedding &amp; event DJs. 5.0 stars, 73 reviews. Get an instant quote.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800;900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "additionalType": "https://schema.org/EntertainmentBusiness",
+  "name": "Extra Entertainment DFW",
+  "alternateName": "DJ Jerry, Christa and Sons",
+  "image": "/assets/hero-poster.jpg",
+  "telephone": "+1-817-854-8544",
+  "priceRange": "$$",
+  "address": {"@type": "PostalAddress", "addressLocality": "Keller", "addressRegion": "TX", "addressCountry": "US"},
+  "areaServed": ["Dallas", "Fort Worth", "Keller", "Southlake", "Grapevine", "Colleyville", "Roanoke", "Argyle"],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "73"},
+  "sameAs": [
+    "https://www.facebook.com/DJJerryandsons",
+    "https://www.instagram.com/extra_entertainment_dfw"
+  ]
+}
+</script>
+
+<style>
+:root{
+  --ink:#0B0B0F;
+  --ink-2:#121218;
+  --ink-3:#1A1A22;
+  --line:rgba(255,255,255,.10);
+  --paper:#FBFAF7;
+  --text:#EDEBE6;
+  --muted:#A5A2AA;
+  --gold:#E3B23C;
+  --gold-soft:#F2D08A;
+  --violet:#7C5CFF;
+  --pad:clamp(20px,5vw,28px);
+  --maxw:1120px;
+  --r:14px;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--ink);
+  color:var(--text);
+  font:400 17px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img,video{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{margin:0;line-height:1.05;letter-spacing:-.03em;font-weight:900}
+p{margin:0}
+.wrap{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:var(--pad)}
+.serif{font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-style:italic;letter-spacing:-.01em}
+.eyebrow{
+  font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--gold-soft);
+}
+
+/* ---------- header ---------- */
+.hdr{
+  position:fixed;inset:0 0 auto 0;z-index:60;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:12px var(--pad);
+  padding-top:calc(12px + env(safe-area-inset-top));
+  transition:background .3s ease,backdrop-filter .3s ease,border-color .3s ease;
+  border-bottom:1px solid transparent;
+}
+.hdr.stuck{background:rgba(11,11,15,.82);backdrop-filter:blur(14px);border-bottom-color:var(--line)}
+.brand{display:inline-flex;align-items:center;gap:10px;line-height:1;text-decoration:none;min-width:0}
+.brand-logo{width:38px;height:38px;object-fit:contain;flex:0 0 auto;filter:drop-shadow(0 3px 10px rgba(0,183,255,.18))}
+.brand-copy{display:flex;flex-direction:column;min-width:0}
+.brand-copy b{font-size:15px;font-weight:900;letter-spacing:-.02em;white-space:nowrap}
+.brand-copy>span{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+@media (max-width:430px){.brand{gap:7px}.brand-logo{width:34px;height:34px}.brand-copy b{font-size:12.5px}.brand-copy>span{font-size:8.5px;letter-spacing:.14em}.hdr-call{padding:10px 13px}}
+.hdr-call{
+  display:inline-flex;align-items:center;gap:7px;text-decoration:none;
+  font-size:14px;font-weight:700;
+  border:1px solid var(--line);border-radius:999px;padding:11px 17px;min-height:44px;
+  background:rgba(255,255,255,.04);white-space:nowrap;
+}
+.hdr-call svg{width:14px;height:14px;fill:var(--gold)}
+
+/* ---------- hero ---------- */
+.hero{
+  position:relative;isolation:isolate;
+  min-height:100svh;
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding-top:110px;
+  padding-bottom:calc(28px + env(safe-area-inset-bottom));
+  overflow:hidden;
+}
+.hero-media{position:absolute;inset:0;z-index:-2;background:var(--ink-2)}
+.hero-media video,.hero-media img{width:100%;height:100%;object-fit:cover}
+/* animated fallback so the hero never looks broken before the video is added */
+.hero-fallback{
+  position:absolute;inset:0;
+  background:
+    radial-gradient(60% 50% at 15% 15%, rgba(124,92,255,.42), transparent 70%),
+    radial-gradient(55% 45% at 85% 25%, rgba(227,178,60,.30), transparent 70%),
+    radial-gradient(70% 60% at 50% 100%, rgba(227,178,60,.16), transparent 70%),
+    linear-gradient(180deg,#15121F 0%,#0B0B0F 100%);
+}
+.hero-scrim{
+  position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(180deg,rgba(11,11,15,.60) 0%,rgba(11,11,15,.20) 32%,rgba(11,11,15,.72) 62%,rgba(11,11,15,.93) 84%,var(--ink) 100%);
+}
+.hero-inner{position:relative}
+.hero h1{
+  font-size:clamp(42px,12.5vw,86px);
+  margin:14px 0 0;
+  text-wrap:balance;
+}
+.hero h1 em{display:block;font-style:italic;font-family:"Instrument Serif",Georgia,serif;font-weight:400;color:var(--gold-soft);letter-spacing:-.015em}
+.hero-sub{margin-top:18px;font-size:clamp(16px,4.3vw,20px);color:#D6D3CD;max-width:36ch;text-wrap:pretty}
+
+/* star strip */
+.stars{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:22px}
+.stars .glyphs{color:var(--gold);letter-spacing:2px;font-size:15px}
+.stars .txt{font-size:14px;color:#CFCCC6}
+.stars .txt b{color:#fff}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:flex;align-items:center;justify-content:center;gap:9px;
+  width:100%;min-height:58px;padding:16px 24px;
+  border:0;border-radius:999px;cursor:pointer;text-decoration:none;
+  font:800 17px/1 "Inter",sans-serif;letter-spacing:-.01em;
+  background:linear-gradient(180deg,var(--gold-soft),var(--gold));
+  color:#1A1405;
+  box-shadow:0 10px 30px -8px rgba(227,178,60,.55);
+  transition:transform .16s ease,box-shadow .16s ease;
+}
+.btn:active{transform:translateY(1px) scale(.995)}
+.btn svg{width:17px;height:17px;fill:currentColor}
+.btn-row{margin-top:26px;display:flex;flex-direction:column;gap:12px}
+.btn-ghost{
+  background:transparent;color:var(--text);
+  border:1px solid rgba(255,255,255,.22);box-shadow:none;font-weight:600;
+}
+.btn-ghost svg{fill:var(--gold)}
+.micro{margin-top:12px;font-size:13.5px;color:var(--muted);text-align:center}
+
+/* ---------- authority bar ---------- */
+.authority{background:var(--ink-2);border-block:1px solid var(--line)}
+.authority ul{
+  list-style:none;margin:0;padding:0;
+  display:grid;grid-template-columns:1fr 1fr;
+}
+.authority li{
+  padding:22px 16px;text-align:center;
+  border-bottom:1px solid var(--line);
+}
+.authority li:nth-child(odd){border-right:1px solid var(--line)}
+.authority li:nth-last-child(-n+2){border-bottom:0}
+.authority .n{display:block;font-size:26px;font-weight:900;letter-spacing:-.03em;color:#fff}
+.authority .n small{font-size:15px;color:var(--gold);font-weight:800}
+.authority .l{display:block;font-size:11.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin-top:7px}
+
+/* ---------- sections ---------- */
+section{padding-block:clamp(58px,11vw,96px)}
+.sec-head{max-width:46ch}
+.sec-head h2{font-size:clamp(30px,8.2vw,50px);margin-top:12px;text-wrap:balance}
+.sec-head p{margin-top:16px;color:var(--muted);font-size:17px}
+
+/* reviews */
+.reviews{background:var(--paper);color:#15141A}
+.reviews .eyebrow{color:#8A6A12}
+.reviews .sec-head p{color:#57545E}
+.rgrid{margin-top:34px;display:grid;gap:16px}
+.review{
+  background:#fff;border:1px solid #E8E4DB;border-radius:var(--r);
+  padding:24px 22px;
+  box-shadow:0 1px 2px rgba(20,18,14,.05);
+}
+.review .glyphs{color:#E3B23C;letter-spacing:2px;font-size:14px}
+.review blockquote{margin:12px 0 0;font-size:16.5px;line-height:1.62;color:#25232B}
+.review .who{margin-top:16px;display:flex;align-items:center;gap:9px;font-size:13.5px;color:#6B6874}
+.review .who b{color:#15141A;font-weight:700}
+.review .src{
+  margin-left:auto;font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+  color:#8A8794;border:1px solid #E8E4DB;border-radius:999px;padding:4px 9px;
+}
+.rfoot{margin-top:26px;text-align:center;font-size:14px;color:#57545E}
+.rfoot b{color:#15141A}
+
+/* venues / marquee credentials */
+.venues{
+  background:
+    radial-gradient(80% 60% at 50% 0%, rgba(227,178,60,.10), transparent 70%),
+    var(--ink);
+}
+.vgrid{margin-top:32px;display:grid;gap:14px}
+.venue{
+  padding:26px 22px;border-radius:16px;
+  border:1px solid var(--line);border-top:3px solid var(--gold);
+  background:linear-gradient(180deg,rgba(227,178,60,.07),rgba(255,255,255,.02) 45%);
+}
+.venue .tag{
+  display:block;font-size:11px;font-weight:800;letter-spacing:.15em;
+  text-transform:uppercase;color:var(--gold);margin-bottom:12px;
+}
+.venue h3{font-size:22px;font-weight:900;letter-spacing:-.025em}
+.venue p{margin-top:12px;font-size:15px;line-height:1.58;color:var(--muted)}
+.venue p b{color:#D6D3CD;font-weight:700}
+
+/* team */
+.team{background:var(--ink-2);border-top:1px solid var(--line)}
+.tgrid{margin-top:34px;display:grid;gap:16px}
+.tcard{
+  border:1px solid var(--line);border-radius:18px;
+  background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.015));
+  padding:26px 22px;position:relative;overflow:hidden;
+}
+.tcard::before{
+  content:"";position:absolute;inset:0 0 auto 0;height:3px;
+  background:linear-gradient(90deg,var(--gold),rgba(227,178,60,0));
+}
+.faces{display:flex;margin-bottom:18px}
+.face{
+  width:64px;height:64px;border-radius:50%;position:relative;overflow:hidden;flex:none;
+  background:linear-gradient(150deg,#2A2637,#191723);
+  border:2px solid var(--ink);
+  box-shadow:0 0 0 1px rgba(227,178,60,.35);
+  display:grid;place-items:center;
+}
+.face + .face{margin-left:-16px}
+.face::after{
+  content:attr(data-initials);
+  font:800 22px/1 "Inter",sans-serif;color:var(--gold-soft);letter-spacing:.01em;
+}
+.face img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
+.tcard .role{
+  display:inline-block;font-size:11px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--gold);background:rgba(227,178,60,.12);border:1px solid rgba(227,178,60,.28);
+  border-radius:999px;padding:6px 12px;margin-bottom:14px;
+}
+.tcard h3{font-size:clamp(22px,5.6vw,27px);font-weight:900;letter-spacing:-.025em}
+.tcard .does{margin-top:8px;font-size:14.5px;color:var(--gold-soft);font-weight:600}
+.tcard p.bio{margin-top:14px;color:var(--muted);font-size:15.5px;line-height:1.6}
+.tcard .pull{
+  margin-top:18px;padding-top:16px;border-top:1px solid var(--line);
+  font-size:14.5px;line-height:1.55;color:#D6D3CD;
+}
+.tcard .pull span{display:block;margin-top:8px;font-size:12.5px;color:var(--muted)}
+.checks{list-style:none;margin:18px 0 0;padding:16px 0 0;border-top:1px solid var(--line)}
+.checks li{
+  position:relative;padding-left:26px;font-size:14.5px;line-height:1.45;color:#D6D3CD;
+}
+.checks li + li{margin-top:10px}
+.checks li::before{
+  content:"";position:absolute;left:0;top:.3em;width:15px;height:15px;
+  background:var(--gold);
+  -webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z'/></svg>") center/contain no-repeat;
+  mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z'/></svg>") center/contain no-repeat;
+}
+
+/* what you get */
+.offer{background:var(--ink-2);border-top:1px solid var(--line)}
+.ogrid{margin-top:34px;display:grid;gap:14px}
+.card{
+  border:1px solid var(--line);border-radius:var(--r);
+  background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.015));
+  padding:24px 22px;
+}
+.card h3{font-size:19px;font-weight:800}
+.card p{margin-top:9px;color:var(--muted);font-size:15.5px;line-height:1.58}
+.card .ico{
+  width:38px;height:38px;border-radius:10px;display:grid;place-items:center;
+  background:rgba(227,178,60,.13);border:1px solid rgba(227,178,60,.28);margin-bottom:16px;
+}
+.card .ico svg{width:19px;height:19px;fill:var(--gold)}
+
+/* quote */
+.quote{
+  background:
+    radial-gradient(70% 55% at 50% 0%, rgba(124,92,255,.20), transparent 70%),
+    var(--ink-2);
+  border-top:1px solid var(--line);
+}
+.qcard{
+  margin-top:30px;background:var(--ink-3);border:1px solid var(--line);
+  border-radius:20px;padding:clamp(22px,5.5vw,34px);
+}
+.field{margin-bottom:16px}
+.field > label{display:block;font-size:13px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#C9C6CF;margin-bottom:8px}
+.field input,.field select,.field textarea{
+  width:100%;font:400 16.5px/1.4 "Inter",sans-serif;color:#fff;
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.16);
+  border-radius:12px;padding:15px 16px;min-height:54px;
+  appearance:none;-webkit-appearance:none;
+}
+.field textarea{min-height:96px;resize:vertical}
+.field select{
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'><path fill='%23A5A2AA' d='M1 1l5 5 5-5'/></svg>");
+  background-repeat:no-repeat;background-position:right 16px center;background-size:12px;
+  padding-right:44px;
+}
+.field input:focus,.field select:focus,.field textarea:focus{
+  outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(227,178,60,.18);
+}
+/* add-on chips */
+.chips{display:flex;flex-wrap:wrap;gap:9px}
+.chip{position:relative;display:inline-flex;cursor:pointer}
+.chip input{position:absolute;opacity:0;width:100%;height:100%;margin:0;cursor:pointer}
+.chip span{
+  display:inline-flex;align-items:center;gap:8px;min-height:46px;
+  padding:11px 16px;border-radius:999px;
+  border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.05);
+  font-size:15px;font-weight:600;color:#D6D3CD;
+  transition:border-color .15s ease,background .15s ease,color .15s ease;
+}
+.chip span::before{
+  content:"";width:16px;height:16px;border-radius:5px;flex:none;
+  border:1.5px solid rgba(255,255,255,.3);
+}
+.chip input:checked + span{
+  border-color:var(--gold);background:rgba(227,178,60,.14);color:#fff;
+}
+.chip input:checked + span::before{
+  background:var(--gold);border-color:var(--gold);
+  -webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z'/></svg>") center/13px no-repeat,linear-gradient(#000,#000);
+  -webkit-mask-composite:destination-out;
+  mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z'/></svg>") center/13px no-repeat,linear-gradient(#000,#000);
+  mask-composite:exclude;
+}
+.chip input:focus-visible + span{outline:2px solid var(--gold);outline-offset:2px}
+
+/* quiet outbound link on a service card */
+.card .more{
+  display:inline-flex;align-items:center;gap:6px;margin-top:14px;
+  font-size:14px;font-weight:700;color:var(--gold);text-decoration:none;
+  border-bottom:1px solid rgba(227,178,60,.35);padding-bottom:2px;
+}
+.card .more svg{width:11px;height:11px;fill:currentColor}
+
+.two{display:grid;gap:16px;margin-bottom:16px}
+.two .field{margin-bottom:0}
+.hp{position:absolute;left:-9999px;opacity:0;height:0;overflow:hidden}
+.formnote{margin-top:14px;font-size:13px;color:var(--muted);text-align:center}
+.orcall{
+  margin-top:26px;padding-top:24px;border-top:1px solid var(--line);
+  text-align:center;
+}
+.orcall p{font-size:14px;color:var(--muted)}
+.orcall .tel{
+  display:inline-block;margin-top:10px;font-size:26px;font-weight:900;
+  letter-spacing:-.02em;color:#fff;text-decoration:none;
+}
+
+/* footer */
+footer{background:var(--ink);border-top:1px solid var(--line);padding-block:44px;font-size:14px;color:var(--muted)}
+footer .brand-f{color:#fff;font-weight:900;font-size:17px;letter-spacing:-.02em}
+footer .areas{margin-top:14px;line-height:1.7}
+footer .socials{margin-top:20px;display:flex;gap:10px}
+footer .socials a{
+  width:44px;height:44px;border:1px solid var(--line);border-radius:10px;
+  display:grid;place-items:center;text-decoration:none;
+}
+footer .socials svg{width:17px;height:17px;fill:var(--muted)}
+footer .legal{margin-top:26px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px}
+
+/* sticky mobile CTA */
+.dock{
+  position:fixed;left:0;right:0;bottom:0;z-index:70;
+  padding:12px var(--pad);
+  padding-bottom:calc(12px + env(safe-area-inset-bottom));
+  background:linear-gradient(180deg,rgba(11,11,15,0),rgba(11,11,15,.94) 32%);
+  transform:translateY(130%);transition:transform .32s cubic-bezier(.2,.8,.3,1);
+  pointer-events:none;
+}
+.dock.show{transform:translateY(0);pointer-events:auto}
+.dock .btn{min-height:56px;box-shadow:0 12px 34px -10px rgba(227,178,60,.7)}
+
+html{scroll-behavior:smooth;scroll-padding-top:86px}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto !important}}
+
+/* ---------- larger screens ---------- */
+@media (min-width:600px){
+  .vgrid{grid-template-columns:repeat(3,1fr)}
+  .tgrid{grid-template-columns:1fr 1fr}
+  .tcard{padding:32px 28px}
+  .btn-row{flex-direction:row}
+  .btn{width:auto;min-width:260px}
+  .btn-ghost{min-width:220px}
+  .micro{text-align:left}
+  .two{grid-template-columns:1fr 1fr}
+  .authority ul{grid-template-columns:repeat(4,1fr)}
+  .authority li{border-bottom:0;border-right:1px solid var(--line)}
+  .authority li:last-child{border-right:0}
+  .authority li:nth-child(odd){border-right:1px solid var(--line)}
+  .rgrid{grid-template-columns:1fr 1fr}
+  .ogrid{grid-template-columns:1fr 1fr}
+}
+@media (min-width:960px){
+  .hero{justify-content:center;padding-top:140px;min-height:96svh}
+  .hero-inner{max-width:760px}
+  .rgrid{grid-template-columns:repeat(3,1fr)}
+  .ogrid{grid-template-columns:repeat(3,1fr)}
+  .qcard{max-width:720px}
+  .dock{display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="hdr" id="hdr">
+  <a class="brand" href="#top">
+    <img class="brand-logo" src="assets/extra-entertainment-logo.png" alt="Extra Entertainment DFW logo">
+    <span class="brand-copy"><b>EXTRA ENTERTAINMENT DFW</b><span>Dallas &middot; Fort Worth</span></span>
+  </a>
+  <a class="hdr-call" href="tel:+18178548544" aria-label="Call Extra Entertainment DFW">
+    <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.24 11.4 11.4 0 003.6.58 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.6a1 1 0 01-.25 1z"/></svg>
+    Call
+  </a>
+</header>
+
+<!-- ============ HERO ============ -->
+<main id="top">
+<section class="hero">
+  <div class="hero-media">
+    <!-- The gradient shows until the video's first frame is decoded, then hands off. -->
+    <div class="hero-fallback" id="heroFallback"></div>
+    <video id="heroVideo" muted loop playsinline preload="auto"
+           data-src-wide="assets/hero.mp4"
+           data-src-tall="assets/hero-mobile.mp4"
+           data-poster-wide="assets/hero-poster.jpg"
+           data-poster-tall="assets/hero-poster-mobile.jpg"></video>
+  </div>
+  <div class="hero-scrim"></div>
+
+  <div class="wrap hero-inner">
+    <p class="eyebrow">Veteran-owned &middot; Family-run &middot; DFW</p>
+    <h1>Dance More.<em>Worry Less.</em></h1>
+    <p class="hero-sub">From proms inside AT&amp;T Stadium to backyards in Keller &mdash; we read the room, run your timeline, and keep the floor packed until the lights come up.</p>
+
+    <div class="stars">
+      <span class="glyphs" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      <span class="txt"><b>5.0</b> from <b>73</b> reviews on Google &amp; Facebook</span>
+    </div>
+
+    <div class="btn-row">
+      <a class="btn" href="#quote">
+        Get My Instant Quote
+        <svg viewBox="0 0 24 24"><path d="M13 5l7 7-7 7-1.4-1.4 4.6-4.6H4v-2h12.2l-4.6-4.6z"/></svg>
+      </a>
+      <a class="btn btn-ghost" href="sms:+18178548544?&body=Hi%20Jerry%20%26%20Christa%20-%20I'd%20like%20a%20quote%20for%20my%20event%20on%20">
+        <svg viewBox="0 0 24 24"><path d="M20 2H4a2 2 0 00-2 2v18l4-4h14a2 2 0 002-2V4a2 2 0 00-2-2z"/></svg>
+        Text us instead
+      </a>
+    </div>
+    <p class="micro">Most quotes back the same day &middot; No obligation</p>
+  </div>
+</section>
+
+<!-- ============ AUTHORITY ============ -->
+<div class="authority">
+  <div class="wrap" style="padding-inline:0">
+  <ul>
+    <li><span class="n">5.0<small>&#9733;</small></span><span class="l">73 Reviews</span></li>
+    <li><span class="n">5</span><span class="l">Stadium &amp; Arena Proms</span></li>
+    <li><span class="n">2</span><span class="l">Pros At Every Wedding</span></li>
+    <li><span class="n">100%</span><span class="l">Insured &amp; Veteran-Owned</span></li>
+  </ul>
+  </div>
+</div>
+
+<!-- ============ VENUE CREDENTIALS ============ -->
+<section class="venues" id="venues">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Rooms we&rsquo;ve run</p>
+      <h2>Big rooms. Backyards. Same standard.</h2>
+      <p>Scale changes everything &mdash; the sound, the sightlines, the load-in, the timing. We&rsquo;ve worked both ends of it.</p>
+    </div>
+
+    <div class="vgrid">
+      <div class="venue">
+        <span class="tag">Big proms</span>
+        <h3>Everything&rsquo;s bigger in Texas</h3>
+        <p>Including the proms. <b>Three inside AT&amp;T Stadium</b> in Arlington and <b>two at Dickies Arena</b> in Fort Worth &mdash; five nights on floors most DJs will never touch. We also run school gyms and cafeterias where the whole class fits in one corner. Different rooms, different setups, same standard.</p>
+      </div>
+
+      <div class="venue">
+        <span class="tag">Private &amp; discreet</span>
+        <h3>Clients who&rsquo;d rather not be listed</h3>
+        <p>We&rsquo;ve been asked back by <b>professional sports families</b> across the Metroplex. You won&rsquo;t find their names on this page, and that&rsquo;s the point &mdash; the discretion is part of what they&rsquo;re hiring.</p>
+      </div>
+
+      <div class="venue">
+        <span class="tag">Everywhere else</span>
+        <h3>A few hundred rooms with no marquee</h3>
+        <p><b>Ballrooms, barns, backyards, country clubs and school gyms</b> all over DFW. The stadium nights get the attention, but this is the work &mdash; and every event gets the same level of care and preparation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">What DFW says</p>
+      <h2>73 reviews. Not one below five stars.</h2>
+      <p>Real words from real clients &mdash; weddings, sweet sixteens, corporate holiday parties and high school reunions across the Metroplex.</p>
+    </div>
+
+    <div class="rgrid">
+      <article class="review">
+        <div class="glyphs" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>&ldquo;This company is fantastic top to bottom! Booking was easy. Communication was great. Pricing is great. Everything went off without a hitch. Highly recommend them.&rdquo;</blockquote>
+        <div class="who"><b>Jantz Goble</b><span class="src">Google</span></div>
+      </article>
+
+      <article class="review">
+        <div class="glyphs" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>&ldquo;This family business truly knows how to entertain. Extra Entertainment just did our wedding and we could not be more happy with how everything turned out. Christa and Jerry are some of the most kindest people I have ever met. &hellip; Christa even fed us throughout the evening, checking on us consistently. &hellip; The night was magical and easily one of the best days of my life.&rdquo;</blockquote>
+        <div class="who"><b>Adan Nu&ntilde;ez</b><span class="src">Google &middot; Wedding</span></div>
+      </article>
+
+      <article class="review">
+        <div class="glyphs" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>&ldquo;They did a great job on my high school reunion!&rdquo;</blockquote>
+        <div class="who"><b>Steve Kotara</b><span class="src">Google</span></div>
+      </article>
+    </div>
+
+    <p class="rfoot">Rated <b>5.0 across 73 reviews</b> &mdash; Google, Facebook &amp; Yelp.</p>
+  </div>
+</section>
+
+<!-- ============ THE TEAM ============ -->
+<section class="team" id="team">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Who&rsquo;s actually behind the decks</p>
+      <h2>One family. Two crews.</h2>
+      <p>You&rsquo;re not booking a name and getting a stranger. You&rsquo;ll know exactly who&rsquo;s running your night before you sign anything.</p>
+    </div>
+
+    <div class="tgrid">
+      <article class="tcard">
+        <div class="faces">
+          <div class="face" data-initials="J"><img src="assets/jerry.jpg" alt="Jerry" onerror="this.remove()"></div>
+          <div class="face" data-initials="C"><img src="assets/christa.jpg" alt="Christa" onerror="this.remove()"></div>
+        </div>
+        <span class="role">Weddings</span>
+        <h3>Jerry &amp; Christa</h3>
+        <p class="does">Both of us. Every single wedding.</p>
+        <p class="bio">Jerry cut his teeth spinning vinyl across four Lubbock nightclubs at Texas Tech and has been reading rooms for over a decade since. Christa produces the day &mdash; venue walk-throughs before the date, the timeline, the vendor cues, the thing nobody thought of at 4pm. That&rsquo;s two professionals on site, always, so a dead mic or a late cake never becomes your problem.</p>
+        <ul class="checks">
+          <li>Venue walk-through before your date</li>
+          <li>Full reception timeline, built with you</li>
+          <li>Ceremony &amp; cocktail-hour sound</li>
+          <li>Day-of coordination at no extra charge</li>
+        </ul>
+      </article>
+
+      <article class="tcard">
+        <div class="faces">
+          <div class="face" data-initials="C"><img src="assets/carson.jpg" alt="Carson" onerror="this.remove()"></div>
+          <div class="face" data-initials="P"><img src="assets/preston.jpg" alt="Preston" onerror="this.remove()"></div>
+        </div>
+        <span class="role">Proms &middot; School &middot; Corporate</span>
+        <h3>Carson &amp; Preston</h3>
+        <p class="does">The crew behind the AT&amp;T Stadium proms.</p>
+        <p class="bio">Jerry &amp; Christa&rsquo;s sons, and the reason schools keep rebooking us. They know what a gym full of juniors actually wants to hear this month &mdash; and they preview every track for radio edits before it ever touches a school playlist. That same energy carries straight into holiday parties, company events, sweet sixteens and quinces.</p>
+        <p class="pull">&ldquo;Carson the DJ was AMAZING! He was very intuitive and really got the crowd dancing and hyped with his mix and kept it clean.&rdquo;
+          <span>Ashley Childers &middot; Google</span></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHAT YOU GET ============ -->
+<section class="offer">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Way more than a DJ</p>
+      <h2>Everything the night needs. One team.</h2>
+      <p>Sound, lights, booth, timeline. No sub-contracting, no third-party rental company showing up late with the wrong gear.</p>
+    </div>
+
+    <div class="ogrid">
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3v10.6A4 4 0 1014 17V7h4V3z"/></svg></div>
+        <h3>DJ &amp; Emcee</h3>
+        <p>A playlist built for your crowd, not a preset. Clean announcements, no cheese, no dead air.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 00-4 12.7V18a2 2 0 002 2h4a2 2 0 002-2v-3.3A7 7 0 0012 2zm-2 20h4v1a1 1 0 01-1 1h-2a1 1 0 01-1-1z"/></svg></div>
+        <h3>Uplighting &amp; Dance Lighting</h3>
+        <p>Room-washing uplights and a floor rig that turns a ballroom into a venue.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M9 4l-1.2 2H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V8a2 2 0 00-2-2h-3.8L15 4zm3 5a5 5 0 110 10 5 5 0 010-10z"/></svg></div>
+        <h3>Photo Booth</h3>
+        <p>Five booths, from a roaming handheld to a full DSLR studio setup. Print and social share, custom-branded to your event.</p>
+        <a class="more" href="https://www.snapthatdfw.com" target="_blank" rel="noopener">
+          See all 5 booths at Snap That DFW
+          <svg viewBox="0 0 24 24"><path d="M14 3v2h3.6l-9.8 9.8 1.4 1.4L19 6.4V10h2V3zM5 5h5V3H3v18h18v-7h-2v5H5z"/></svg>
+        </a>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M6.5 20a4.5 4.5 0 01-.6-8.96 6 6 0 0111.64-1.6A4 4 0 0117.5 20z"/></svg></div>
+        <h3>Dancing on a Cloud</h3>
+        <p>Low-lying fog for the first dance. The photo everyone frames.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M7 2h10a1 1 0 011 1v4a6 6 0 01-5 5.92V17h3a1 1 0 010 2H8a1 1 0 010-2h3v-4.08A6 6 0 016 7V3a1 1 0 011-1z"/></svg></div>
+        <h3>Weddings &amp; Corporate</h3>
+        <p>From 300-guest receptions to company holiday parties and conferences.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 8-4v6h2V7zM6 13.2V17c0 1.66 2.69 3 6 3s6-1.34 6-3v-3.8l-6 3z"/></svg></div>
+        <h3>Proms &amp; School Dances</h3>
+        <p>Radio edits only, previewed track by track. Administrators sleep fine.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE ONE CTA ============ -->
+<section class="quote" id="quote">
+  <div class="wrap">
+    <div class="sec-head" style="margin-inline:auto;text-align:center">
+      <p class="eyebrow">One step</p>
+      <h2>Get your instant quote</h2>
+      <p style="margin-inline:auto">Tell us four things. We&rsquo;ll send your price and confirm your date is open &mdash; usually the same day.</p>
+    </div>
+
+    <div class="qcard" style="margin-inline:auto">
+      <!-- TalleFlow contact form -->
+      <div
+        class="talleflow-embed"
+        id="talleflow-embed-1790139553781"
+        data-talleflow-src="https://forms.talleflow.com/documents/6a909969522f2561c95a651d/1787862554425.html"
+        data-talleflow-min-height="400"
+        data-talleflow-max-height="5000"
+        data-talleflow-initial-height="600"
+        style="width: 100%; display: block; min-height: 600px;">
+      </div>
+      <script src="https://app.talleflow.com/embed/contact-form.min.js" async></script>
+
+      <div class="orcall">
+        <p>Rather just talk? Call or text Jerry &amp; Christa directly.</p>
+        <a class="tel" href="tel:+18178548544">(817) 854-8544</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="brand-f">Extra Entertainment DFW</div>
+    <p style="margin-top:6px">Veteran-owned. Family-run. Fully insured.</p>
+    <p style="margin-top:14px">Photo booths by our sister brand,
+      <a href="https://www.snapthatdfw.com" target="_blank" rel="noopener" style="color:var(--gold);font-weight:600">Snap That DFW</a>
+      &mdash; five booths, packages from $300.</p>
+    <p class="areas">Serving Keller, Southlake, Grapevine, Colleyville, Roanoke, Argyle, Fort Worth, Dallas and the greater Metroplex.</p>
+    <div class="socials">
+      <a href="https://www.facebook.com/DJJerryandsons" aria-label="Facebook" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M13 22v-8h3l1-4h-4V8c0-1.1.3-1.8 1.9-1.8H17V2.6C16.7 2.6 15.5 2.5 14.2 2.5 11.4 2.5 9.5 4.2 9.5 7.3V10H6.5v4h3v8z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/extra_entertainment_dfw" aria-label="Instagram" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 3.3.15 4.8 1.7 4.96 4.96.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.15 3.25-1.66 4.8-4.96 4.96-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-3.3-.15-4.8-1.71-4.96-4.96C2.07 15.6 2.06 15.2 2.06 12s0-3.6.07-4.9C2.28 3.85 3.79 2.3 7.09 2.14 8.4 2.08 8.8 2.2 12 2.2zm0 3.4a6.4 6.4 0 100 12.8 6.4 6.4 0 000-12.8zm0 10.56a4.16 4.16 0 110-8.32 4.16 4.16 0 010 8.32zm6.65-10.8a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/></svg>
+      </a>
+      <a href="tel:+18178548544" aria-label="Phone">
+        <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.24 11.4 11.4 0 003.6.58 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.6a1 1 0 01-.25 1z"/></svg>
+      </a>
+    </div>
+    <p class="legal">&copy; <span id="yr">2026</span> Extra Entertainment DFW, LLC &middot; Keller, Texas</p>
+  </div>
+</footer>
+
+<div class="dock" id="dock">
+  <a class="btn" href="#quote">Get My Instant Quote</a>
+</div>
+
+<script>
+(function(){
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // header background once scrolled
+  var hdr = document.getElementById('hdr');
+  var dock = document.getElementById('dock');
+  var quote = document.getElementById('quote');
+
+  function onScroll(){
+    hdr.classList.toggle('stuck', window.scrollY > 40);
+    // show the dock after the hero, hide it once the form is on screen
+    var r = quote.getBoundingClientRect();
+    var formVisible = r.top < window.innerHeight * 0.85 && r.bottom > 0;
+    dock.classList.toggle('show', window.scrollY > window.innerHeight * 0.6 && !formVisible);
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  // Hero video: pick the crop that fits the screen, so phones never download
+  // the 2.5MB widescreen file just to show its middle third.
+  var v = document.getElementById('heroVideo');
+  var fb = document.getElementById('heroFallback');
+  if(v){
+    var tall = window.matchMedia('(max-aspect-ratio: 1/1)').matches;
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var saveData = navigator.connection && navigator.connection.saveData;
+
+    v.poster = v.getAttribute(tall ? 'data-poster-tall' : 'data-poster-wide');
+    v.style.opacity = '0';
+    v.style.transition = 'opacity .6s ease';
+
+    v.addEventListener('loadeddata', function(){
+      v.style.opacity = '1';
+      if(fb) setTimeout(function(){ fb.style.display = 'none'; }, 600);
+      if(!reduce) { var pr = v.play(); if(pr && pr.catch) pr.catch(function(){}); }
+    });
+    // if the file is missing or the network dies, keep the gradient — never a black box
+    v.addEventListener('error', function(){ v.remove(); }, true);
+
+    if(saveData){
+      // metered connection: show the still frame only, don't pull the video
+      v.preload = 'none';
+      v.style.opacity = '1';
+      if(fb) fb.style.display = 'none';
+    } else {
+      v.src = v.getAttribute(tall ? 'data-src-tall' : 'data-src-wide');
+      v.load();
+    }
+  }
+
+  // set the date input's minimum to today
+  var d = document.getElementById('date');
+  if(d){ d.min = new Date().toISOString().split('T')[0]; }
+})();
+</script>
+</body>
+</html>
