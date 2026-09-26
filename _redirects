@@ -1,2 +1,19 @@
-# redirect old Wix pages to homepage
-/*  /  301
+# Old Wix pages -> homepage
+/about         /   301
+/about-us      /   301
+/services      /   301
+/contact       /   301
+/contact-us    /   301
+/gallery       /   301
+/photo-booth   /   301
+/photo-booths  /   301
+/reviews       /   301
+/faq           /   301
+/weddings      /   301
+/book-online   /   301
+/blank         /   301
+/blog          /   301
+/blog/*        /   301
+/post/*        /   301
+# Anything else that does not exist -> homepage
+/*             /index.html   301
